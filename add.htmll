@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD> 
+ </HEAD>
+ <BODY bgcolor="aqua">
+  
+<script>
+ var a=20;
+ var b=20;
+ document.write("<b>"+"<center>"+"<font size=20px;>"+"ARITHMATIC OPERATIONS"+"<br>")
+ document.write("A+B=");
+ c=a+b;
+ document.write(c+"<br>"+)
+
+ document.write("A-B=");
+ c=a-b;
+ document.write(c+"<br>")
+
+ document.write("A*B=");
+ c=a*b;
+ document.write(c+"<br>")
+
+ document.write("A%B=");
+ c=a%b;
+ document.write(c+"<br>")
+
+ document.write("A/B=");
+ c=a/b;
+ document.write(c+"<br>")
+
+ </script>
+ </BODY>
+</HTML>
