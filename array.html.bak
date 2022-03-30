@@ -1,0 +1,9 @@
+<html>
+<head>
+<script>
+var i,len,f
+f=[2,4,6,8,10]
+document.write(f[2]);
+</script>
+</head>
+</HTML>
