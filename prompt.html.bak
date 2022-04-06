@@ -1,0 +1,51 @@
+<html>
+ <body>
+ <script type="text/javascript">
+ var a=parseInt (window.prompt("enter number"));
+ var b=parseInt (window.prompt("enter number"));
+ function A()
+ {
+ c=a+b;
+ alert(c);
+ }
+
+function B()
+ {
+ c=a-b;
+ alert(c);
+ }
+
+function C()
+ {
+ c=a*b;
+ alert(c);
+ }
+
+function D()
+ {
+ c=a/b;
+ alert(c);
+ }
+ </script>
+ </head>
+<body bgcolor="#D6B3AC">
+<form name="f">
+ <strong>
+<center><h1>........Using Prompt Box........</h1></center>
+ <hr color="black" height="5">
+ <h2>Addition of Two Numbers:<br><br>
+ <input type="button" value="add" onclick="A()">
+ <br><br>
+ Subtraction of Two Numbers:<br><br>
+ <input type="button" value="sub" onclick="B()">
+ <br><br>
+ Multiplication of Two Numbers:<br><br>
+ <input type="button" value="mul" onclick="C()">
+ <br><br>
+ Division of Two Numbers:<br><br>
+ <input type="button" value="div" onclick="D()"></h2>
+ <img src="file:///C:/Users/patil/Downloads/imrd.png">
+ </body>
+ </html>
+
+
