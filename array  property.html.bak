@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+ <body>
+ <script type="text/javascript">
+ var a=new Array(4);
+ a[0]="ACCOUNTING(201)"
+ a[1]="COMMUNICATION SKILL(202)"
+ a[2]="WEB DESIGN(203)"
+ a[3]="C PLUS PLUS(204)"
+ document.write("<h2>"+"SLICE  PROPERTY USED:"+"<br>"+"<br>"+a.slice()+"<br>"+"<br>"+"<hr>")
+ document.write("REVERSE PROPERTY USED:"+"<br>"+"<br>"+a.reverse()+"<br>"+"<br>"+"<hr>")
+ document.write("SORT PROPERTY USED:"+"<br>"+"<br>"+a.sort()+"<br>"+"<hr>")
+ </script>
+ </body>
+</html>
+
+
