@@ -1,0 +1,22 @@
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+var a=new Array(9)
+a[0]="ONE";
+a[1]="TWO";
+a[2]="THREE";
+a[3]="FOUR";
+a[4]="FIVE";
+a[5]="SIX";
+a[6]="SEVEN";
+a[7]="EIGHT";
+a[8]="NINE";
+a[9]="TEN";
+for(i=0;i<=9; i++)
+{
+document.write("<h1>"+a[i]+"<br>")
+}
+</script>
+</body>
+</html>
