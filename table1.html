@@ -1,0 +1,30 @@
+<html>
+<head>
+<style type="text/css">
+form
+{
+background:#CCFF66;
+height:200px;
+width:200px;
+font-size:20px;
+}
+</style>
+<script type="text/javascript">
+
+
+function cal()
+{
+no=eval(document.getElementById("txtno").value) 
+for(i=1;i<=10;i++)
+{
+document.write(i*no+"<br>")
+}
+}
+</script></head>
+<body>
+<form>
+Enter number: <input type="text" id="txtno"><br><br>
+<input type="button" id="btntable" value="show Table" onclick="cal()">
+</form>
+</body>
+</html>
