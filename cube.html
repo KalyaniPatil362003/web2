@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript">
+function cube()
+{
+var cube,a;
+a=eval(document.getElementById("K").value);
+cube=a*a*a;
+document.getElementById("V").value=cube;
+}
+</script>
+</head>
+<body bgcolor="pink">
+<form>
+Enter the number:<input type="text" id="K"><br><br>
+<input type="button" id="K" value="check" onclick="cube()"><br><br>
+Result:<input type="text" id="V"><br><br>
+</form>
+</body>
+</html>
