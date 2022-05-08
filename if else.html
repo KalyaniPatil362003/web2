@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript">
+function test()
+{	
+var Result;
+Result=document.f1.Marks.value;	
+if(Result>=40)
+{
+document.write("Pass");	
+}
+else
+{
+	document.write("fail");
+}
+}
+</script>
+</head>
+<body>
+<form name="f1">
+Enter Marks:<input type="text" name="Marks"><br><br>
+<input type="button" name="K" value="Result" onclick="test()"><br><br>
+</form>
+</body>
+</html>
