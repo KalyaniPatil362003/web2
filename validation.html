@@ -1,0 +1,67 @@
+<html>
+<head>
+<script type="text/javascript">
+function check_null()
+{
+var x=document.getElementById("name").value;
+if(x=="")
+{
+alert("not null plz try again")
+return false
+}
+else
+{
+return true
+}
+}
+function checkmobno()
+{
+var num=document.getElementById("num").value;
+if(num.length!=10)
+{
+alert("Not valid Mob No");
+return false;
+}
+else
+{
+return true;
+}
+}
+function checknum()
+{
+var num=document.getElementById("num").value;
+if(isNaN(num))
+{
+alert("only numbers not alpha");
+document.getElementById("num").value=""
+return false;
+}
+else
+{
+return true;
+}
+}
+function check_email()
+{
+var email_add=document.getElementById("email").value
+atpos=email_add.indexOf("@")
+dotpos=email_add.lastIndexOf(".")
+if (atpos<1 || dotpos<atpos+2 )
+{
+alert("Not Valid Email, please try again.");
+return false
+}
+else
+{
+return true
+}
+}
+</script>
+</head>
+<body>
+Enter Name<input type="text" id="name" onblur="check_null()"><br><br>
+Enter Email<input type="text" id="email" onblur="return check_email()"><br><br>
+Enter Mo.no<input type="text" id="num" onblur="return checkmobno()" onkeypress=" return checknum()"><br><br> 
+<input type="button" Value="Check Email">
+</body>
+</html>
